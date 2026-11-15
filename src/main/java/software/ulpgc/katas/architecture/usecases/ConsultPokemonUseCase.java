@@ -5,11 +5,11 @@ import software.ulpgc.katas.architecture.domain.PokemonFetchException;
 import software.ulpgc.katas.architecture.ports.PokemonDisplay;
 import software.ulpgc.katas.architecture.ports.PokemonRepository;
 
-public class ConsultPokemonUserCase {
+public class ConsultPokemonUseCase {
     private final PokemonRepository repository;
     private final PokemonDisplay display;
 
-    public ConsultPokemonUserCase(PokemonRepository repository, PokemonDisplay display) {
+    public ConsultPokemonUseCase(PokemonRepository repository, PokemonDisplay display) {
         this.repository = repository;
         this.display = display;
     }
