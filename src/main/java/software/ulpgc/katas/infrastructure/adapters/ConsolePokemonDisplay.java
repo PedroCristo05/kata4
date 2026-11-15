@@ -17,5 +17,6 @@ public class ConsolePokemonDisplay implements PokemonDisplay {
     @Override
     public void showError(String message) {
         System.err.println("[ERROR] " + message);
+        try { Thread.sleep(10); } catch (InterruptedException ignored) {}
     }
 }
